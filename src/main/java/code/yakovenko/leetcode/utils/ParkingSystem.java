@@ -1,6 +1,6 @@
 package code.yakovenko.leetcode.utils;
 
-public final class ParkingSystem {
+public class ParkingSystem {
 
 	private final int[] PARKING_LOTS = new int[3];
 
