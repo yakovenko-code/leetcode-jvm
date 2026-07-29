@@ -1,0 +1,20 @@
+package code.yakovenko.leetcode.easy;
+
+import org.junit.jupiter.api.Test;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+public final class TrafficSignalColorTest {
+
+	private final TrafficSignalColor solution = new TrafficSignalColor();
+
+	@Test
+	public void test1() {
+		assertThat(solution.trafficSignal(60)).isEqualTo("Red");
+	}
+
+	@Test
+	public void test2() {
+		assertThat(solution.trafficSignal(5)).isEqualTo("Invalid");
+	}
+}
