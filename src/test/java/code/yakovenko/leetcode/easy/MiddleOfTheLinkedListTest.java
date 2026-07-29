@@ -1,0 +1,43 @@
+package code.yakovenko.leetcode.easy;
+
+import code.yakovenko.leetcode.Comparators;
+import code.yakovenko.leetcode.utils.ListNode;
+import org.junit.jupiter.api.Test;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+public final class MiddleOfTheLinkedListTest {
+
+	private final MiddleOfTheLinkedList solution = new MiddleOfTheLinkedList();
+
+	@Test
+	public void test1() {
+		assertThat(
+				solution.middleNode(
+						new ListNode(1,
+								new ListNode(2,
+										new ListNode(3,
+												new ListNode(4,
+														new ListNode(5)))))
+				)
+		).usingComparator(
+				Comparators::listNode
+		).isEqualTo(new ListNode(3, new ListNode(4, new ListNode(5))));
+	}
+
+	@Test
+	public void test2() {
+		assertThat(
+				solution.middleNode(
+						new ListNode(1,
+								new ListNode(2,
+										new ListNode(3,
+												new ListNode(4,
+														new ListNode(5,
+																new ListNode(6))))))
+				)
+		).usingComparator(
+				Comparators::listNode
+		).isEqualTo(new ListNode(4, new ListNode(5, new ListNode(6))));
+	}
+}
