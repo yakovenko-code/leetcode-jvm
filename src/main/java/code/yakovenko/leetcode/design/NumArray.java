@@ -1,4 +1,4 @@
-package code.yakovenko.leetcode.utils;
+package code.yakovenko.leetcode.design;
 
 public class NumArray {
 

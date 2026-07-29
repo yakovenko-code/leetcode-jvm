@@ -1,6 +1,6 @@
 package code.yakovenko.leetcode.easy;
 
-import code.yakovenko.leetcode.utils.NumArray;
+import code.yakovenko.leetcode.design.NumArray;
 
 public final class RangeSumQueryImmutable extends NumArray {
 
