@@ -1,6 +1,6 @@
 package code.yakovenko.leetcode.easy;
 
-import code.yakovenko.leetcode.utils.ParkingSystem;
+import code.yakovenko.leetcode.design.ParkingSystem;
 
 public final class DesignParkingSystem extends ParkingSystem {
 
