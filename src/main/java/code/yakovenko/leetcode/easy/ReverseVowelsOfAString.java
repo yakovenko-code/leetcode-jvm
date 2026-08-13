@@ -5,8 +5,8 @@ public final class ReverseVowelsOfAString {
 	private static final boolean[] IS_VOWEL = new boolean[256];
 
 	static {
-		for (char c : "aeiouAEIOU".toCharArray()) {
-			IS_VOWEL[c] = true;
+		for (char vowel : "aeiouAEIOU".toCharArray()) {
+			IS_VOWEL[vowel] = true;
 		}
 	}
 
