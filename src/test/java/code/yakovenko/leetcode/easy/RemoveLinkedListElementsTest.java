@@ -11,7 +11,7 @@ public final class RemoveLinkedListElementsTest {
 	private final RemoveLinkedListElements solution = new RemoveLinkedListElements();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.removeElements(
 				new ListNode(1,
 						new ListNode(2,
@@ -29,14 +29,14 @@ public final class RemoveLinkedListElementsTest {
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.removeElements(null, 1))
 				.usingComparator(Comparators::listNode)
 				.isEqualTo(null);
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.removeElements(
 				new ListNode(7, new ListNode(7, new ListNode(7, new ListNode(7)))), 7)
 		).usingComparator(

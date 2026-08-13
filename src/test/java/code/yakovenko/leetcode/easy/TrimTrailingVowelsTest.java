@@ -9,17 +9,17 @@ public final class TrimTrailingVowelsTest {
 	private final TrimTrailingVowels solution = new TrimTrailingVowels();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.trimTrailingVowels("idea")).isEqualTo("id");
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.trimTrailingVowels("day")).isEqualTo("day");
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.trimTrailingVowels("aeiou")).isEqualTo("");
 	}
 }

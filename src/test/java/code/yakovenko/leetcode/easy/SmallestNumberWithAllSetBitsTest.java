@@ -9,17 +9,17 @@ public class SmallestNumberWithAllSetBitsTest {
 	private final SmallestNumberWithAllSetBits solution = new SmallestNumberWithAllSetBits();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.smallestNumber(5)).isEqualTo(7);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.smallestNumber(10)).isEqualTo(15);
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.smallestNumber(3)).isEqualTo(3);
 	}
 }

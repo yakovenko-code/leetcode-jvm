@@ -9,17 +9,17 @@ public final class ReversePrefixOfWordTest {
 	private final ReversePrefixOfWord solution = new ReversePrefixOfWord();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.reversePrefix("abcdefd", 'd')).isEqualTo("dcbaefd");
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.reversePrefix("xyxzxe", 'z')).isEqualTo("zxyxxe");
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.reversePrefix("abcd", 'z')).isEqualTo("abcd");
 	}
 

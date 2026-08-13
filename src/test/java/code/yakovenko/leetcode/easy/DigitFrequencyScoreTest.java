@@ -9,12 +9,12 @@ public final class DigitFrequencyScoreTest {
 	private final DigitFrequencyScore solution = new DigitFrequencyScore();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.digitFrequencyScore(122)).isEqualTo(5);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.digitFrequencyScore(101)).isEqualTo(2);
 	}
 }

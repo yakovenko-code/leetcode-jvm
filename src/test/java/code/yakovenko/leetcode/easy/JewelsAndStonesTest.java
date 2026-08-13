@@ -9,12 +9,12 @@ public final class JewelsAndStonesTest {
 	private final JewelsAndStones solution = new JewelsAndStones();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.numJewelsInStones("aA", "aAAbbbb")).isEqualTo(3);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.numJewelsInStones("z", "ZZ")).isEqualTo(0);
 	}
 }

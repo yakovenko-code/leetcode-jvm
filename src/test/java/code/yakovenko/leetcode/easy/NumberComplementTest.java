@@ -9,12 +9,12 @@ public final class NumberComplementTest {
 	private final NumberComplement solution = new NumberComplement();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.findComplement(5)).isEqualTo(2);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.findComplement(1)).isEqualTo(0);
 	}
 }

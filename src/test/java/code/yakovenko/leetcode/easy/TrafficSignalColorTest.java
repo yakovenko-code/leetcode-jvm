@@ -9,12 +9,12 @@ public final class TrafficSignalColorTest {
 	private final TrafficSignalColor solution = new TrafficSignalColor();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.trafficSignal(60)).isEqualTo("Red");
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.trafficSignal(5)).isEqualTo("Invalid");
 	}
 }

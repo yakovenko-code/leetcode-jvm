@@ -10,19 +10,19 @@ public final class MaximumTwinSumOfALinkedListTest {
 	private final MaximumTwinSumOfALinkedList solution = new MaximumTwinSumOfALinkedList();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.pairSum(new ListNode(5, new ListNode(4, new ListNode(2, new ListNode(1))))))
 				.isEqualTo(6);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.pairSum(new ListNode(4, new ListNode(2, new ListNode(2, new ListNode(3))))))
 				.isEqualTo(7);
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.pairSum(new ListNode(1, new ListNode(100000)))).isEqualTo(100001);
 	}
 }

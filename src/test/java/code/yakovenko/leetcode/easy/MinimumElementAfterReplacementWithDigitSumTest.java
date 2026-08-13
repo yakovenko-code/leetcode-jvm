@@ -10,17 +10,17 @@ public final class MinimumElementAfterReplacementWithDigitSumTest {
 			new MinimumElementAfterReplacementWithDigitSum();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.minElement(new int[]{10, 12, 13, 14})).isEqualTo(1);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.minElement(new int[]{1, 2, 3, 4})).isEqualTo(1);
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.minElement(new int[]{999, 19, 199})).isEqualTo(10);
 	}
 }

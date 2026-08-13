@@ -11,7 +11,7 @@ public final class PascalsTriangleTest {
 	private final PascalsTriangle solution = new PascalsTriangle();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.generate(5)).isEqualTo(
 				List.of(
 						List.of(1),

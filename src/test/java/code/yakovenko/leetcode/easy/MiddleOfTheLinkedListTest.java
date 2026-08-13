@@ -11,7 +11,7 @@ public final class MiddleOfTheLinkedListTest {
 	private final MiddleOfTheLinkedList solution = new MiddleOfTheLinkedList();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(
 				solution.middleNode(
 						new ListNode(1,
@@ -26,7 +26,7 @@ public final class MiddleOfTheLinkedListTest {
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(
 				solution.middleNode(
 						new ListNode(1,

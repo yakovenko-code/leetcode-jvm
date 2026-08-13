@@ -9,12 +9,12 @@ public final class CountMonobitIntegersTest {
 	private final CountMonobitIntegers solution = new CountMonobitIntegers();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.countMonobit(1)).isEqualTo(2);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.countMonobit(4)).isEqualTo(3);
 	}
 }

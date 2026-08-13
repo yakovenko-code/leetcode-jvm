@@ -10,17 +10,17 @@ public final class NumberOfStepsToReduceANumberToZeroTest {
 			new NumberOfStepsToReduceANumberToZero();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.numberOfSteps(14)).isEqualTo(6);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.numberOfSteps(8)).isEqualTo(4);
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.numberOfSteps(123)).isEqualTo(12);
 	}
 }

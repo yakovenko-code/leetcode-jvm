@@ -9,17 +9,17 @@ public final class SumMultiplesTest {
 	private final SumMultiples solution = new SumMultiples();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.sumOfMultiples(7)).isEqualTo(21);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.sumOfMultiples(10)).isEqualTo(40);
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.sumOfMultiples(9)).isEqualTo(30);
 	}
 }

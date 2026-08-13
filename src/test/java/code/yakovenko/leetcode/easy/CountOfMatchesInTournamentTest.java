@@ -9,12 +9,12 @@ public final class CountOfMatchesInTournamentTest {
 	private final CountOfMatchesInTournament solution = new CountOfMatchesInTournament();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.numberOfMatches(7)).isEqualTo(6);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.numberOfMatches(14)).isEqualTo(13);
 	}
 }

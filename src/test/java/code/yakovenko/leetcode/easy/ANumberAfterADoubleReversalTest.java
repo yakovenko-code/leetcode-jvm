@@ -9,17 +9,17 @@ public final class ANumberAfterADoubleReversalTest {
 	private final ANumberAfterADoubleReversal solution = new ANumberAfterADoubleReversal();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.isSameAfterReversals(526)).isTrue();
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.isSameAfterReversals(1800)).isFalse();
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.isSameAfterReversals(0)).isTrue();
 	}
 }

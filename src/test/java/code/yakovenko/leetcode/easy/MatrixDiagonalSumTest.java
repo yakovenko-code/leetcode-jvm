@@ -9,18 +9,18 @@ public final class MatrixDiagonalSumTest {
 	private final MatrixDiagonalSum solution = new MatrixDiagonalSum();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.diagonalSum(new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}})).isEqualTo(25);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.diagonalSum(new int[][]{{1, 1, 1, 1}, {1, 1, 1, 1}, {1, 1, 1, 1}, {1, 1, 1, 1}}))
 				.isEqualTo(8);
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.diagonalSum(new int[][]{{5}})).isEqualTo(5);
 	}
 }

@@ -10,18 +10,18 @@ public final class CheckIfAWordOccursAsAPrefixOfAnyWordInASentenceTest {
 			new CheckIfAWordOccursAsAPrefixOfAnyWordInASentence();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.isPrefixOfWord("i love eating burger", "burg")).isEqualTo(4);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.isPrefixOfWord("this problem is an easy problem", "pro"))
 				.isEqualTo(2);
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.isPrefixOfWord("i am tired", "you")).isEqualTo(-1);
 	}
 }

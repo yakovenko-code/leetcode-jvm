@@ -9,17 +9,17 @@ public final class BitwiseOROfEvenNumbersInAnArrayTest {
 	private final BitwiseOROfEvenNumbersInAnArray solution = new BitwiseOROfEvenNumbersInAnArray();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.evenNumberBitwiseORs(new int[]{1, 2, 3, 4, 5, 6})).isEqualTo(6);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.evenNumberBitwiseORs(new int[]{7, 9, 11})).isEqualTo(0);
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.evenNumberBitwiseORs(new int[]{1, 8, 16})).isEqualTo(24);
 	}
 }

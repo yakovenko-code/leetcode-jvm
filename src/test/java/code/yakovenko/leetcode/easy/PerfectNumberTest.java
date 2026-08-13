@@ -9,12 +9,12 @@ public final class PerfectNumberTest {
 	private final PerfectNumber solution = new PerfectNumber();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.checkPerfectNumber(28)).isTrue();
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.checkPerfectNumber(7)).isFalse();
 	}
 }

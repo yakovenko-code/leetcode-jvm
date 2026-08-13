@@ -10,12 +10,12 @@ public final class SubtractTheProductAndSumOfDigitsOfAnIntegerTest {
 			new SubtractTheProductAndSumOfDigitsOfAnInteger();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.subtractProductAndSum(234)).isEqualTo(15);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.subtractProductAndSum(4421)).isEqualTo(21);
 	}
 }

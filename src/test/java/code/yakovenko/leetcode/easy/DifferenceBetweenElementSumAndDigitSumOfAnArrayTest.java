@@ -10,12 +10,12 @@ public final class DifferenceBetweenElementSumAndDigitSumOfAnArrayTest {
 			new DifferenceBetweenElementSumAndDigitSumOfAnArray();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.differenceOfSum(new int[]{1, 15, 6, 3})).isEqualTo(9);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.differenceOfSum(new int[]{1, 2, 3, 4})).isEqualTo(0);
 	}
 }

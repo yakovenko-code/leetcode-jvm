@@ -11,12 +11,12 @@ public final class SnakeInMatrixTest {
 	private final SnakeInMatrix solution = new SnakeInMatrix();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.finalPositionOfSnake(2, List.of("RIGHT", "DOWN"))).isEqualTo(3);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.finalPositionOfSnake(3, List.of("DOWN", "RIGHT", "UP"))).isEqualTo(1);
 	}
 }

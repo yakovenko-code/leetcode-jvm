@@ -9,12 +9,12 @@ public final class NumberOfEmployeesWhoMetTheTargetTest {
 	private final NumberOfEmployeesWhoMetTheTarget solution = new NumberOfEmployeesWhoMetTheTarget();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.numberOfEmployeesWhoMetTarget(new int[]{0, 1, 2, 3, 4}, 2)).isEqualTo(3);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.numberOfEmployeesWhoMetTarget(new int[]{5, 1, 4, 2, 2}, 6)).isEqualTo(0);
 	}
 }

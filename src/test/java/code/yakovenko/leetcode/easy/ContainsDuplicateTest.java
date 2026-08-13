@@ -9,17 +9,17 @@ public final class ContainsDuplicateTest {
 	private final ContainsDuplicate solution = new ContainsDuplicate();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.containsDuplicate(new int[]{1, 2, 3, 1})).isTrue();
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.containsDuplicate(new int[]{1, 2, 3, 4})).isFalse();
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.containsDuplicate(new int[]{1, 1, 1, 3, 3, 4, 3, 2, 4, 2})).isTrue();
 	}
 }

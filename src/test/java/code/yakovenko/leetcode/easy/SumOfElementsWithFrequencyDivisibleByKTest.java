@@ -9,17 +9,17 @@ public final class SumOfElementsWithFrequencyDivisibleByKTest {
 	private final SumOfElementsWithFrequencyDivisibleByK solution = new SumOfElementsWithFrequencyDivisibleByK();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.sumDivisibleByK(new int[]{1, 2, 2, 3, 3, 3, 3, 4}, 2)).isEqualTo(16);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.sumDivisibleByK(new int[]{1, 2, 3, 4, 5}, 2)).isEqualTo(0);
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.sumDivisibleByK(new int[]{4, 4, 4, 1, 2, 3}, 3)).isEqualTo(12);
 	}
 }

@@ -9,7 +9,7 @@ public final class WeightedWordMappingTest {
 	private final WeightedWordMapping solution = new WeightedWordMapping();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(
 				solution.mapWordWeights(
 						new String[]{"abcd", "def", "xyz"},
@@ -19,7 +19,7 @@ public final class WeightedWordMappingTest {
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(
 				solution.mapWordWeights(
 						new String[]{"a", "b", "c"},
@@ -29,7 +29,7 @@ public final class WeightedWordMappingTest {
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(
 				solution.mapWordWeights(
 						new String[]{"abcd"},

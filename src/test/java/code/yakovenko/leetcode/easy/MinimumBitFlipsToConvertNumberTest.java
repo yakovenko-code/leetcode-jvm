@@ -9,12 +9,12 @@ public final class MinimumBitFlipsToConvertNumberTest {
 	private final MinimumBitFlipsToConvertNumber solution = new MinimumBitFlipsToConvertNumber();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.minBitFlips(10, 7)).isEqualTo(3);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.minBitFlips(3, 4)).isEqualTo(3);
 	}
 }

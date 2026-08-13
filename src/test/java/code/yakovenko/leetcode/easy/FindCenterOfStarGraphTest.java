@@ -9,12 +9,12 @@ public final class FindCenterOfStarGraphTest {
 	private final FindCenterOfStarGraph solution = new FindCenterOfStarGraph();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.findCenter(new int[][]{{1, 2}, {2, 3}, {4, 2}})).isEqualTo(2);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.findCenter(new int[][]{{1, 2}, {5, 1}, {1, 3}, {1, 4}})).isEqualTo(1);
 	}
 }

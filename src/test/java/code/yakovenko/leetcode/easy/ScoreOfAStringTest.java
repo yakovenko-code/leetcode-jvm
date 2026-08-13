@@ -9,12 +9,12 @@ public final class ScoreOfAStringTest {
 	private final ScoreOfAString solution = new ScoreOfAString();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.scoreOfString("hello")).isEqualTo(13);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.scoreOfString("zaz")).isEqualTo(50);
 	}
 }

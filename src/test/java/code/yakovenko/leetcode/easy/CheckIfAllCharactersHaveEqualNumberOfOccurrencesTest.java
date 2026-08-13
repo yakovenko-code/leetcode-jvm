@@ -10,12 +10,12 @@ public final class CheckIfAllCharactersHaveEqualNumberOfOccurrencesTest {
 			new CheckIfAllCharactersHaveEqualNumberOfOccurrences();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.areOccurrencesEqual("abacbc")).isTrue();
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.areOccurrencesEqual("aaabb")).isFalse();
 	}
 }

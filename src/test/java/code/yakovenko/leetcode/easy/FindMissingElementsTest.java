@@ -11,17 +11,17 @@ public final class FindMissingElementsTest {
 	private final FindMissingElements solution = new FindMissingElements();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.findMissingElements(new int[]{1, 4, 2, 5})).isEqualTo(List.of(3));
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.findMissingElements(new int[]{7, 8, 6, 9})).isEqualTo(List.of());
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.findMissingElements(new int[]{5, 1})).isEqualTo(List.of(2, 3, 4));
 	}
 }

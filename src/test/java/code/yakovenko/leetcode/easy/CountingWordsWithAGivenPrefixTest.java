@@ -9,13 +9,13 @@ public final class CountingWordsWithAGivenPrefixTest {
 	private final CountingWordsWithAGivenPrefix solution = new CountingWordsWithAGivenPrefix();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.prefixCount(new String[]{"pay", "attention", "practice", "attend"}, "at"))
 				.isEqualTo(2);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.prefixCount(new String[]{"leetcode", "win", "loops", "success"}, "code"))
 				.isEqualTo(0);
 	}

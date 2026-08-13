@@ -9,12 +9,12 @@ public final class CheckIfTheSentenceIsPangramTest {
 	private final CheckIfTheSentenceIsPangram solution = new CheckIfTheSentenceIsPangram();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.checkIfPangram("thequickbrownfoxjumpsoverthelazydog")).isTrue();
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.checkIfPangram("leetcode")).isFalse();
 	}
 }

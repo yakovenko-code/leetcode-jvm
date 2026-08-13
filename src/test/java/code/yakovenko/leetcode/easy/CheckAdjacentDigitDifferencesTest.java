@@ -9,12 +9,12 @@ public final class CheckAdjacentDigitDifferencesTest {
 	private final CheckAdjacentDigitDifferences solution = new CheckAdjacentDigitDifferences();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.isAdjacentDiffAtMostTwo("132")).isTrue();
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.isAdjacentDiffAtMostTwo("129")).isFalse();
 	}
 }

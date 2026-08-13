@@ -9,12 +9,12 @@ public final class PermutationDifferenceBetweenTwoStringsTest {
 	private final PermutationDifferenceBetweenTwoStrings solution = new PermutationDifferenceBetweenTwoStrings();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.findPermutationDifference("abc", "bac")).isEqualTo(2);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.findPermutationDifference("abcde", "edbac")).isEqualTo(12);
 	}
 }

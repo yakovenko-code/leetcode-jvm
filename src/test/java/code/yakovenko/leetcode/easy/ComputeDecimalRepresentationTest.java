@@ -9,17 +9,17 @@ public final class ComputeDecimalRepresentationTest {
 	private final ComputeDecimalRepresentation solution = new ComputeDecimalRepresentation();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.decimalRepresentation(537)).isEqualTo(new int[]{500, 30, 7});
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.decimalRepresentation(102)).isEqualTo(new int[]{100, 2});
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.decimalRepresentation(6)).isEqualTo(new int[]{6});
 	}
 }

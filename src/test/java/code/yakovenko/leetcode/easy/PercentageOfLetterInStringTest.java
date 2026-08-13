@@ -9,12 +9,12 @@ public final class PercentageOfLetterInStringTest {
 	private final PercentageOfLetterInString solution = new PercentageOfLetterInString();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.percentageLetter("foobar", 'o')).isEqualTo(33);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.percentageLetter("jjjj", 'k')).isEqualTo(0);
 	}
 }

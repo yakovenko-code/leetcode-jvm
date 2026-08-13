@@ -9,12 +9,12 @@ public final class MinimumNumberOfChairsInAWaitingRoomTest {
 	private final MinimumNumberOfChairsInAWaitingRoom solution = new MinimumNumberOfChairsInAWaitingRoom();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.minimumChairs("EEEEEEE")).isEqualTo(7);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.minimumChairs("ELELEEL")).isEqualTo(2);
 	}
 }

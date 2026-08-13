@@ -9,12 +9,12 @@ public final class FindTheDifferenceTest {
 	private final FindTheDifference solution = new FindTheDifference();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.findTheDifference("abcd", "abcde")).isEqualTo('e');
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.findTheDifference("", "y")).isEqualTo('y');
 	}
 }

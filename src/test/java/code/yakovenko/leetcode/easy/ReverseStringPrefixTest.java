@@ -9,17 +9,17 @@ public final class ReverseStringPrefixTest {
 	private final ReverseStringPrefix solution = new ReverseStringPrefix();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.reversePrefix("abcd", 2)).isEqualTo("bacd");
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.reversePrefix("xyz", 3)).isEqualTo("zyx");
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.reversePrefix("hey", 1)).isEqualTo("hey");
 	}
 }

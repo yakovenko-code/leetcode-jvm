@@ -11,17 +11,17 @@ public final class CheckIfAStringIsAnAcronymOfWordsTest {
 	private final CheckIfAStringIsAnAcronymOfWords solution = new CheckIfAStringIsAnAcronymOfWords();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.isAcronym(List.of("alice", "bob", "charlie"), "abc")).isTrue();
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.isAcronym(List.of("an", "apple"), "a")).isFalse();
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.isAcronym(List.of("never", "gonna", "give", "up", "on", "you"), "ngguoy")).isTrue();
 	}
 }

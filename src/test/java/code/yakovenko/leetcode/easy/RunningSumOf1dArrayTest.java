@@ -9,17 +9,17 @@ public final class RunningSumOf1dArrayTest {
 	private final RunningSumOf1dArray solution = new RunningSumOf1dArray();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.runningSum(new int[]{1, 2, 3, 4})).isEqualTo(new int[]{1, 3, 6, 10});
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.runningSum(new int[]{1, 1, 1, 1, 1})).isEqualTo(new int[]{1, 2, 3, 4, 5});
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.runningSum(new int[]{3, 1, 2, 10, 1})).isEqualTo(new int[]{3, 4, 6, 16, 17});
 	}
 }

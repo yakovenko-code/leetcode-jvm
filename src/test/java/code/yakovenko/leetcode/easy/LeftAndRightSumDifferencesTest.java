@@ -9,12 +9,12 @@ public final class LeftAndRightSumDifferencesTest {
 	private final LeftAndRightSumDifferences solution = new LeftAndRightSumDifferences();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.leftRightDifference(new int[]{10, 4, 8, 3})).isEqualTo(new int[]{15, 1, 11, 22});
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.leftRightDifference(new int[]{1})).isEqualTo(new int[]{0});
 	}
 }

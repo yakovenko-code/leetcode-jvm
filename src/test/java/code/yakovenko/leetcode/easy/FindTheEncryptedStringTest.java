@@ -9,12 +9,12 @@ public final class FindTheEncryptedStringTest {
 	private final FindTheEncryptedString solution = new FindTheEncryptedString();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.getEncryptedString("dart", 3)).isEqualTo("tdar");
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.getEncryptedString("aaa", 1)).isEqualTo("aaa");
 	}
 }

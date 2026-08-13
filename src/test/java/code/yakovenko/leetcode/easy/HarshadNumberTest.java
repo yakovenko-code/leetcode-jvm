@@ -9,12 +9,12 @@ public final class HarshadNumberTest {
 	private final HarshadNumber solution = new HarshadNumber();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.sumOfTheDigitsOfHarshadNumber(18)).isEqualTo(9);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.sumOfTheDigitsOfHarshadNumber(23)).isEqualTo(-1);
 	}
 }

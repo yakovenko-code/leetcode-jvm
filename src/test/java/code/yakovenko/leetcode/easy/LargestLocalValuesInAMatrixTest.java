@@ -9,7 +9,7 @@ public final class LargestLocalValuesInAMatrixTest {
 	private final LargestLocalValuesInAMatrix solution = new LargestLocalValuesInAMatrix();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.largestLocal(
 				new int[][]{
 						{9, 9, 8, 1},
@@ -21,7 +21,7 @@ public final class LargestLocalValuesInAMatrixTest {
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.largestLocal(
 				new int[][]{
 						{1, 1, 1, 1, 1},

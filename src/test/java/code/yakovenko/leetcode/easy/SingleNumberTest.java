@@ -9,17 +9,17 @@ public final class SingleNumberTest {
 	private final SingleNumber solution = new SingleNumber();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.singleNumber(new int[]{2, 2, 1})).isEqualTo(1);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.singleNumber(new int[]{4, 1, 2, 1, 2})).isEqualTo(4);
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.singleNumber(new int[]{1})).isEqualTo(1);
 	}
 }

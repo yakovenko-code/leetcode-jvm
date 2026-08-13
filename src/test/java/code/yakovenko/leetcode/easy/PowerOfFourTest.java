@@ -9,17 +9,17 @@ public final class PowerOfFourTest {
 	private final PowerOfFour solution = new PowerOfFour();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.isPowerOfFour(16)).isTrue();
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.isPowerOfFour(5)).isFalse();
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.isPowerOfFour(1)).isTrue();
 	}
 }

@@ -7,7 +7,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public final class RangeSumQueryImmutableTest {
 
 	@Test
-	public void test1() {
+	public void example1() {
 		final RangeSumQueryImmutable solution = new RangeSumQueryImmutable(new int[]{-2, 0, 3, -5, 2, -1});
 
 		assertThat(solution.sumRange(0, 2)).isEqualTo(1);

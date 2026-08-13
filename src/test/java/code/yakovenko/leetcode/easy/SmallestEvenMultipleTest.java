@@ -9,12 +9,12 @@ public final class SmallestEvenMultipleTest {
 	private final SmallestEvenMultiple solution = new SmallestEvenMultiple();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.smallestEvenMultiple(5)).isEqualTo(10);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.smallestEvenMultiple(6)).isEqualTo(6);
 	}
 }

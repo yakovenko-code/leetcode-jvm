@@ -12,18 +12,18 @@ public final class FindWordsContainingCharacterTest {
 	private final FindWordsContainingCharacter solution = new FindWordsContainingCharacter();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.findWordsContaining(new String[]{"leet", "code"}, 'e')).isEqualTo(List.of(0, 1));
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.findWordsContaining(new String[]{"abc", "bcd", "aaaa", "cbc"}, 'a'))
 				.isEqualTo(List.of(0, 2));
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.findWordsContaining(new String[]{"abc", "bcd", "aaaa", "cbc"}, 'z'))
 				.isEqualTo(Collections.EMPTY_LIST);
 	}

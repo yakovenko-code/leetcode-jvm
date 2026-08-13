@@ -9,12 +9,12 @@ public final class GCDOfOddAndEvenSumsTest {
 	private final GCDOfOddAndEvenSums solution = new GCDOfOddAndEvenSums();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.gcdOfOddEvenSums(4)).isEqualTo(4);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.gcdOfOddEvenSums(5)).isEqualTo(5);
 	}
 }

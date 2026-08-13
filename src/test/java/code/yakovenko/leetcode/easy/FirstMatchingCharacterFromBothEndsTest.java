@@ -9,17 +9,17 @@ public final class FirstMatchingCharacterFromBothEndsTest {
 	private final FirstMatchingCharacterFromBothEnds solution = new FirstMatchingCharacterFromBothEnds();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.firstMatchingIndex("abcacbd")).isEqualTo(1);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.firstMatchingIndex("abc")).isEqualTo(1);
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.firstMatchingIndex("abcdab")).isEqualTo(-1);
 	}
 }

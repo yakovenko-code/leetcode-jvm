@@ -9,17 +9,17 @@ public final class CheckIfTwoStringArraysAreEquivalentTest {
 	private final CheckIfTwoStringArraysAreEquivalent solution = new CheckIfTwoStringArraysAreEquivalent();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.arrayStringsAreEqual(new String[]{"ab", "c"}, new String[]{"a", "bc"})).isTrue();
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.arrayStringsAreEqual(new String[]{"a", "cb"}, new String[]{"cb", "c"})).isFalse();
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.arrayStringsAreEqual(new String[]{"abc", "d", "defg"}, new String[]{"abcddefg"})).isTrue();
 	}
 }

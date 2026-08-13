@@ -9,12 +9,12 @@ public final class ConcatenationOfArrayTest {
 	private final ConcatenationOfArray solution = new ConcatenationOfArray();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.getConcatenation(new int[]{1, 2, 1})).isEqualTo(new int[]{1, 2, 1, 1, 2, 1});
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.getConcatenation(new int[]{1, 3, 2, 1})).isEqualTo(new int[]{1, 3, 2, 1, 1, 3, 2, 1});
 	}
 }

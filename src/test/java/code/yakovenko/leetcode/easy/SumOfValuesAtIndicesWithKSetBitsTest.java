@@ -11,12 +11,12 @@ public final class SumOfValuesAtIndicesWithKSetBitsTest {
 	private final SumOfValuesAtIndicesWithKSetBits solution = new SumOfValuesAtIndicesWithKSetBits();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.sumIndicesWithKSetBits(List.of(5, 10, 1, 5, 2), 1)).isEqualTo(13);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.sumIndicesWithKSetBits(List.of(4, 3, 2, 1), 2)).isEqualTo(1);
 	}
 }

@@ -9,17 +9,17 @@ public final class FindClosestPersonTest {
 	private final FindClosestPerson solution = new FindClosestPerson();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.findClosest(2, 7, 4)).isEqualTo(1);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.findClosest(2, 5, 6)).isEqualTo(2);
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.findClosest(1, 5, 3)).isEqualTo(0);
 	}
 }

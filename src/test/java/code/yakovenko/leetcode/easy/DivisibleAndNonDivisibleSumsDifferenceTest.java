@@ -9,17 +9,17 @@ public final class DivisibleAndNonDivisibleSumsDifferenceTest {
 	private final DivisibleAndNonDivisibleSumsDifference solution = new DivisibleAndNonDivisibleSumsDifference();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.differenceOfSums(10, 3)).isEqualTo(19);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.differenceOfSums(5, 6)).isEqualTo(15);
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.differenceOfSums(5, 1)).isEqualTo(-15);
 	}
 }

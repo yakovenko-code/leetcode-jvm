@@ -9,12 +9,12 @@ public final class FirstLetterToAppearTwiceTest {
 	private final FirstLetterToAppearTwice solution = new FirstLetterToAppearTwice();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.repeatedCharacter("abccbaacz")).isEqualTo('c');
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.repeatedCharacter("abcdd")).isEqualTo('d');
 	}
 }

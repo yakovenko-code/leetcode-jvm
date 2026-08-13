@@ -11,7 +11,7 @@ public final class ReverseLinkedListTest {
 	private final ReverseLinkedList solution = new ReverseLinkedList();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(
 				solution.reverseList(
 						new ListNode(1,
@@ -32,14 +32,14 @@ public final class ReverseLinkedListTest {
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.reverseList(new ListNode(1, new ListNode(2))))
 				.usingComparator(Comparators::listNode)
 				.isEqualTo(new ListNode(2, new ListNode(1)));
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.reverseList(null))
 				.usingComparator(Comparators::listNode)
 				.isEqualTo(null);

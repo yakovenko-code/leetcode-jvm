@@ -9,17 +9,17 @@ public final class ComplementOfBase10IntegerTest {
 	private final ComplementOfBase10Integer solution = new ComplementOfBase10Integer();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.bitwiseComplement(5)).isEqualTo(2);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.bitwiseComplement(7)).isEqualTo(0);
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.bitwiseComplement(10)).isEqualTo(5);
 	}
 }

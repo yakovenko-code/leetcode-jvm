@@ -9,17 +9,17 @@ public final class MirrorDistanceOfAnIntegerTest {
 	private final MirrorDistanceOfAnInteger solution = new MirrorDistanceOfAnInteger();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.mirrorDistance(25)).isEqualTo(27);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.mirrorDistance(10)).isEqualTo(9);
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.mirrorDistance(7)).isEqualTo(0);
 	}
 }

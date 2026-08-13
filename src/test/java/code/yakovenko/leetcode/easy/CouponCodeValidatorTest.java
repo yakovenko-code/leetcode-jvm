@@ -11,7 +11,7 @@ public final class CouponCodeValidatorTest {
 	private final CouponCodeValidator solution = new CouponCodeValidator();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(
 				solution.validateCoupons(
 						new String[]{"SAVE20", "", "PHARMA5", "SAVE@20"},
@@ -22,7 +22,7 @@ public final class CouponCodeValidatorTest {
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(
 				solution.validateCoupons(
 						new String[]{"GROCERY15", "ELECTRONICS_50", "DISCOUNT10"},

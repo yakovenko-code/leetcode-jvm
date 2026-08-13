@@ -9,17 +9,17 @@ public final class CheckIfAllAsAppearsBeforeAllBsTest {
 	private final CheckIfAllAsAppearsBeforeAllBs solution = new CheckIfAllAsAppearsBeforeAllBs();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.checkString("aaabbb")).isTrue();
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.checkString("abab")).isFalse();
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.checkString("bbb")).isTrue();
 	}
 }

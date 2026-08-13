@@ -9,12 +9,12 @@ public final class SumOfIntegersWithMaximumDigitRangeTest {
 	private final SumOfIntegersWithMaximumDigitRange solution = new SumOfIntegersWithMaximumDigitRange();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.maxDigitRange(new int[]{5724, 111, 350})).isEqualTo(6074);
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.maxDigitRange(new int[]{90, 900})).isEqualTo(990);
 	}
 }

@@ -9,17 +9,17 @@ public final class MergeStringsAlternatelyTest {
 	private final MergeStringsAlternately solution = new MergeStringsAlternately();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.mergeAlternately("abc", "pqr")).isEqualTo("apbqcr");
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.mergeAlternately("ab", "pqrs")).isEqualTo("apbqrs");
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.mergeAlternately("abcd", "pq")).isEqualTo("apbqcd");
 	}
 }

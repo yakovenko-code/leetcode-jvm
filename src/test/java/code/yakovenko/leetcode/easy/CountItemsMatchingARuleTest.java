@@ -11,7 +11,7 @@ public final class CountItemsMatchingARuleTest {
 	private final CountItemsMatchingARule solution = new CountItemsMatchingARule();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.countMatches(
 				List.of(
 						List.of("phone", "blue", "pixel"),
@@ -24,7 +24,7 @@ public final class CountItemsMatchingARuleTest {
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.countMatches(
 				List.of(
 						List.of("phone", "blue", "pixel"),

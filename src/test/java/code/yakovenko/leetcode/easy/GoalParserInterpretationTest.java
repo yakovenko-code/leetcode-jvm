@@ -9,17 +9,17 @@ public final class GoalParserInterpretationTest {
 	private final GoalParserInterpretation solution = new GoalParserInterpretation();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.interpret("G()(al)")).isEqualTo("Goal");
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.interpret("G()()()()(al)")).isEqualTo("Gooooal");
 	}
 
 	@Test
-	public void test3() {
+	public void example3() {
 		assertThat(solution.interpret("(al)G(al)()()G")).isEqualTo("alGalooG");
 	}
 }

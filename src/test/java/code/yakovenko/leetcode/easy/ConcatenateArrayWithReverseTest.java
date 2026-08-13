@@ -9,12 +9,12 @@ public final class ConcatenateArrayWithReverseTest {
 	private final ConcatenateArrayWithReverse solution = new ConcatenateArrayWithReverse();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.concatWithReverse(new int[]{1, 2, 3})).isEqualTo(new int[]{1, 2, 3, 3, 2, 1});
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.concatWithReverse(new int[]{1})).isEqualTo(new int[]{1, 1});
 	}
 }

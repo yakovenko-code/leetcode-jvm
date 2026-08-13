@@ -9,12 +9,12 @@ public final class ClearDigitsTest {
 	private final ClearDigits solution = new ClearDigits();
 
 	@Test
-	public void test1() {
+	public void example1() {
 		assertThat(solution.clearDigits("abc")).isEqualTo("abc");
 	}
 
 	@Test
-	public void test2() {
+	public void example2() {
 		assertThat(solution.clearDigits("cb34")).isEqualTo("");
 	}
 }
