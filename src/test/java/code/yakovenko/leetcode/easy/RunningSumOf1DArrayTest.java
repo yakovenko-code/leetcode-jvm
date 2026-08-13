@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public final class RunningSumOf1dArrayTest {
+public final class RunningSumOf1DArrayTest {
 
-	private final RunningSumOf1dArray solution = new RunningSumOf1dArray();
+	private final RunningSumOf1DArray solution = new RunningSumOf1DArray();
 
 	@Test
 	public void example1() {
