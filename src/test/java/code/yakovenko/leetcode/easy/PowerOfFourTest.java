@@ -1,0 +1,25 @@
+package code.yakovenko.leetcode.easy;
+
+import org.junit.jupiter.api.Test;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+public final class PowerOfFourTest {
+
+	private final PowerOfFour solution = new PowerOfFour();
+
+	@Test
+	public void test1() {
+		assertThat(solution.isPowerOfFour(16)).isTrue();
+	}
+
+	@Test
+	public void test2() {
+		assertThat(solution.isPowerOfFour(5)).isFalse();
+	}
+
+	@Test
+	public void test3() {
+		assertThat(solution.isPowerOfFour(1)).isTrue();
+	}
+}
