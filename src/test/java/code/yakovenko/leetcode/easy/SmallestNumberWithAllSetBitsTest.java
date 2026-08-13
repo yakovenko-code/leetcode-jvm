@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class SmallestNumberWithAllSetBitsTest {
+public final class SmallestNumberWithAllSetBitsTest {
 
 	private final SmallestNumberWithAllSetBits solution = new SmallestNumberWithAllSetBits();
 
