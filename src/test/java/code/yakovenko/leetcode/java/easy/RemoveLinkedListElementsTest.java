@@ -1,0 +1,46 @@
+package code.yakovenko.leetcode.java.easy;
+
+import code.yakovenko.leetcode.java.Comparators;
+import code.yakovenko.leetcode.java.utils.ListNode;
+import org.junit.jupiter.api.Test;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+public final class RemoveLinkedListElementsTest {
+
+	private final RemoveLinkedListElements solution = new RemoveLinkedListElements();
+
+	@Test
+	public void example1() {
+		assertThat(solution.removeElements(
+				new ListNode(1,
+						new ListNode(2,
+								new ListNode(6,
+										new ListNode(3,
+												new ListNode(4,
+														new ListNode(5,
+																new ListNode(6))))))),
+				6)
+		).usingComparator(
+				Comparators::listNode
+		).isEqualTo(
+				new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5)))))
+		);
+	}
+
+	@Test
+	public void example2() {
+		assertThat(solution.removeElements(null, 1))
+				.usingComparator(Comparators::listNode)
+				.isEqualTo(null);
+	}
+
+	@Test
+	public void example3() {
+		assertThat(solution.removeElements(
+				new ListNode(7, new ListNode(7, new ListNode(7, new ListNode(7)))), 7)
+		).usingComparator(
+				Comparators::listNode
+		).isEqualTo(null);
+	}
+}

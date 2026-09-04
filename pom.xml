@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>code.yakovenko</groupId>
-	<artifactId>leetcode-java</artifactId>
+	<artifactId>leetcode-jvm</artifactId>
 	<version>1.0.0</version>
 
 	<properties>
