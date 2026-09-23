@@ -10,7 +10,6 @@ public final class P3908ValidDigitNumber {
 
 			if (digit == x) {
 				isContain = true;
-				break;
 			}
 
 			n /= 10;
