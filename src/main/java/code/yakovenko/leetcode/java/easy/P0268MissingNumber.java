@@ -3,12 +3,12 @@ package code.yakovenko.leetcode.java.easy;
 public final class P0268MissingNumber {
 
 	public int missingNumber(int[] nums) {
-		int sum = 0;
+		int xor = nums.length;
 
-		for (final int num : nums) {
-			sum += num;
+		for (int i = 0; i < nums.length; i++) {
+			xor ^= i ^ nums[i];
 		}
 
-		return (nums.length * (nums.length + 1)) / 2 - sum;
+		return xor;
 	}
 }
