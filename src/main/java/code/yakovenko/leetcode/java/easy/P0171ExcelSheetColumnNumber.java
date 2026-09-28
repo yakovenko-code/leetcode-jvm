@@ -1,6 +1,6 @@
 package code.yakovenko.leetcode.java.easy;
 
-public final class P0168ExcelSheetColumnNumber {
+public final class P0171ExcelSheetColumnNumber {
 
 	public int titleToNumber(String columnTitle) {
 		int number = 0;

@@ -1,6 +1,6 @@
 package code.yakovenko.leetcode.java.easy;
 
-public final class P0171ExcelSheetColumnTitle {
+public final class P0168ExcelSheetColumnTitle {
 
 	public String convertToTitle(int columnNumber) {
 		final StringBuilder stringBuilder = new StringBuilder();

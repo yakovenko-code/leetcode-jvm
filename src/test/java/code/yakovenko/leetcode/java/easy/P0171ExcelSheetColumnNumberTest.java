@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public final class P0168ExcelSheetColumnNumberTest {
+public final class P0171ExcelSheetColumnNumberTest {
 
-	private final P0168ExcelSheetColumnNumber solution = new P0168ExcelSheetColumnNumber();
+	private final P0171ExcelSheetColumnNumber solution = new P0171ExcelSheetColumnNumber();
 
 	@Test
 	public void example1() {
