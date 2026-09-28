@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		 xmlns="http://maven.apache.org/POM/4.0.0"
-		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>code.yakovenko</groupId>
@@ -12,14 +12,24 @@
 		<maven.compiler.source>26</maven.compiler.source>
 		<maven.compiler.target>26</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<kotlin.version>2.4.20</kotlin.version>
+		<junit.version>6.1.3</junit.version>
+		<assertj.version>3.27.7</assertj.version>
 	</properties>
 
 	<dependencies>
+		<!-- Source: https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-stdlib -->
+		<dependency>
+			<groupId>org.jetbrains.kotlin</groupId>
+			<artifactId>kotlin-stdlib</artifactId>
+			<version>${kotlin.version}</version>
+		</dependency>
+
 		<!-- Source: https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-api</artifactId>
-			<version>6.1.1</version>
+			<version>${junit.version}</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -27,8 +37,40 @@
 		<dependency>
 			<groupId>org.assertj</groupId>
 			<artifactId>assertj-core</artifactId>
-			<version>3.27.7</version>
+			<version>${assertj.version}</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<build>
+		<plugins>
+			<!-- Source: https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-maven-plugin -->
+			<plugin>
+				<groupId>org.jetbrains.kotlin</groupId>
+				<artifactId>kotlin-maven-plugin</artifactId>
+				<version>${kotlin.version}</version>
+				<extensions>true</extensions>
+				<executions>
+					<execution>
+						<id>compile</id>
+						<phase>process-sources</phase>
+						<goals>
+							<goal>compile</goal>
+						</goals>
+					</execution>
+
+					<execution>
+						<id>test-compile</id>
+						<phase>test-compile</phase>
+						<goals>
+							<goal>test-compile</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<jvmTarget>${maven.compiler.target}</jvmTarget>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
