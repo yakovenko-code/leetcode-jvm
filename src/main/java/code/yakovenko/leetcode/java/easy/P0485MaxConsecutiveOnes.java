@@ -3,24 +3,23 @@ package code.yakovenko.leetcode.java.easy;
 public final class P0485MaxConsecutiveOnes {
 
 	public int findMaxConsecutiveOnes(int[] nums) {
-		int i = 0;
-		int maxCount = 0;
+		int startIndex, currentIndex = 0;
+		int max = 0;
 
-		while (i < nums.length) {
-			while (i < nums.length && nums[i] != 1) {
-				i++;
+		while (currentIndex < nums.length) {
+			while (currentIndex < nums.length && nums[currentIndex] == 0) {
+				currentIndex++;
 			}
 
-			int count = 0;
+			startIndex = currentIndex;
 
-			while (i < nums.length && nums[i] != 0) {
-				count++;
-				i++;
+			while (currentIndex < nums.length && nums[currentIndex] == 1) {
+				currentIndex++;
 			}
 
-			maxCount = Math.max(maxCount, count);
+			max = Math.max(max, currentIndex - startIndex);
 		}
 
-		return maxCount;
+		return max;
 	}
 }
