@@ -25,10 +25,6 @@ public final class P0228SummaryRanges {
 	}
 
 	private String buildRange(final int start, final int stop) {
-		if (start == stop) {
-			return String.valueOf(start);
-		} else {
-			return start + "->" + stop;
-		}
+		return start == stop ? String.valueOf(start) : start + "->" + stop;
 	}
 }
